@@ -7,7 +7,7 @@ import { ViewTaskComponent } from './components/view-task/view-task.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: 'addproject',
+  { path: '', redirectTo: 'adduser',
     pathMatch: 'full'
   },
   {path: 'adduser', component: UserComponent},
